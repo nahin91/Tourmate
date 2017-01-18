@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tycohanx.weatherapp.MainActivity">
+  <!--  <item
+        android:id="@+id/search_city"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        />-->
+    <item
+        android:id="@+id/farenheit"
+        android:orderInCategory="100"
+        android:title="@string/action_farenheit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/celcius"
+        android:orderInCategory="100"
+        android:title="@string/action_celsius"
+        app:showAsAction="never" />
+  <item
+
+      android:icon="@drawable/homewhite"
+      android:id="@+id/home"
+      android:orderInCategory="100"
+      android:title="home"
+      app:showAsAction="always" />
+
+</menu>

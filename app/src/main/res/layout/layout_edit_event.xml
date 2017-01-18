@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/creatEventBackgroungColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:text="Edit Event"
+            android:textColor="@color/creatEventBackgroungColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/dialogColor"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_EditEventName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Event Name"
+                android:textColor="@color/fontColor"
+                android:gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_EditStartPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Starting Place"
+                android:textColor="@color/fontColor"
+                android:gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- mobile number -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_EditDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Destination"
+                android:textColor="@color/fontColor"
+                android:gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_EditDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+                android:textColor="@color/fontColor"
+                android:gravity="center_horizontal"
+                android:focusable="false"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Re-enter Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_EditBudget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Estimated Budget"
+                android:textColor="@color/fontColor"
+                android:gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Signup Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/btn_EditEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/creatEventBackgroungColor"
+                android:background="@color/buttonADDcolor"/>
+            <Button
+                android:id="@+id/btn_EditCancleEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cancle"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/creatEventBackgroungColor"
+                android:background="@color/buttonCANCLEcolor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

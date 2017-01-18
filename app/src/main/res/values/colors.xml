@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202C44</color>
+    <color name="colorPrimaryLight">#313d56</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFBE52</color>
+    <color name="fontColor">#e5b3baca</color>
+    <color name="dividerColor">#00b3baca</color>
+    <color name="dialogColor">#feb44e</color>
+    <color name="hintColor">#fefccd8d</color>
+    <color name="loginForm">#343642</color>
+    <color name="Nav">#343642</color>
+    <color name="NavDrawerBackgroundColor">#232B2D</color>
+    <color name="creatEventBackgroungColor">#f5232b2d</color>
+    <color name="buttonADDcolor">#feb44e</color>
+    <color name="buttonCANCLEcolor">#a15967</color>
+
+    <color name="colorAccent2">#FF4081</color>
+    <color name="colorFragmentOne">#e2ff40</color>
+    <color name="colorFragmentTwo">#40ffd6</color>
+    <color name="colorTab">#A0C5Df</color>
+    <color name="colorTabline">#E9F0F6</color>
+    <color name="colorTabUnderline">#22609f</color>
+</resources>
